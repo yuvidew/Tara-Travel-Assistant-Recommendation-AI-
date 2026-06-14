@@ -1,0 +1,84 @@
+[
+  {
+    "origin": "Durg",
+    "destination": "Delhi",
+    "suggestedStops": ["Gwalior", "Agra", "Delhi"],
+    "segments": [
+      {
+        "from": "Durg",
+        "to": "Gwalior",
+        "approxDriveTime": "12-14 hours",
+        "notes": "Long highway segment through central India; start early and consider an extra halt if traveling with family."
+      },
+      {
+        "from": "Gwalior",
+        "to": "Agra",
+        "approxDriveTime": "2.5-3.5 hours",
+        "notes": "Short heritage stretch; leave after breakfast and keep the afternoon for Agra Fort or Mehtab Bagh."
+      },
+      {
+        "from": "Agra",
+        "to": "Delhi",
+        "approxDriveTime": "3-4 hours",
+        "notes": "Use the expressway route where appropriate and keep buffer time for Delhi traffic."
+      }
+    ],
+    "recommendedNights": [
+      { "place": "Gwalior", "nights": 1 },
+      { "place": "Agra", "nights": 1 },
+      { "place": "Delhi", "nights": 2 }
+    ],
+    "routeNotes": "A practical heritage-focused road trip from Chhattisgarh to Delhi. Timings are approximate and should be checked in maps before travel.",
+    "sourceUrl": "Curated starter route data"
+  },
+  {
+    "origin": "Delhi",
+    "destination": "Manali",
+    "suggestedStops": ["Chandigarh", "Mandi", "Manali"],
+    "segments": [
+      {
+        "from": "Delhi",
+        "to": "Chandigarh",
+        "approxDriveTime": "4.5-6 hours",
+        "notes": "Good food and rest stop before the hills."
+      },
+      {
+        "from": "Chandigarh",
+        "to": "Manali",
+        "approxDriveTime": "8-10 hours",
+        "notes": "Mountain road segment; avoid night driving and check weather."
+      }
+    ],
+    "recommendedNights": [
+      { "place": "Chandigarh", "nights": 1 },
+      { "place": "Manali", "nights": 3 }
+    ],
+    "routeNotes": "Popular North India hill trip with traffic and weather-sensitive mountain roads.",
+    "sourceUrl": "Curated starter route data"
+  },
+  {
+    "origin": "Mumbai",
+    "destination": "Goa",
+    "suggestedStops": ["Ratnagiri", "Goa"],
+    "segments": [
+      {
+        "from": "Mumbai",
+        "to": "Ratnagiri",
+        "approxDriveTime": "7-9 hours",
+        "notes": "Scenic Konkan route with coastal food stops."
+      },
+      {
+        "from": "Ratnagiri",
+        "to": "Goa",
+        "approxDriveTime": "5-7 hours",
+        "notes": "Plan daylight driving and keep time for beach arrival."
+      }
+    ],
+    "recommendedNights": [
+      { "place": "Ratnagiri", "nights": 1 },
+      { "place": "Goa", "nights": 3 }
+    ],
+    "routeNotes": "Scenic coastal drive best enjoyed with a relaxed pace.",
+    "sourceUrl": "Curated starter route data"
+  }
+]

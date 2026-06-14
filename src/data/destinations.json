@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Durg",
+    "stateOrCountry": "Chhattisgarh, India",
+    "bestMonths": ["October", "November", "December", "January", "February"],
+    "idealDays": 1,
+    "interests": ["starting point", "central india", "road trip"],
+    "budgetLevel": "budget",
+    "estimatedDailyCost": "1500-3000 INR per person",
+    "topAttractions": [
+      "Maitri Bagh",
+      "Shivnath River",
+      "Bhilai Steel Plant township drive"
+    ],
+    "foodHighlights": ["Chhattisgarhi thali", "faraa", "local poha and jalebi"],
+    "safetyNotes": "Use Durg as the road-trip origin and check highway conditions before departure.",
+    "sampleItinerary": "Start early from Durg, keep the first day focused on covering distance, and plan an overnight halt before entering the long Madhya Pradesh stretch.",
+    "sourceUrl": "Curated starter data"
+  },
+  {
+    "name": "Gwalior",
+    "stateOrCountry": "Madhya Pradesh, India",
+    "bestMonths": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "idealDays": 1,
+    "interests": ["forts", "history", "heritage", "food", "road trip stop"],
+    "budgetLevel": "mid-range",
+    "estimatedDailyCost": "1500-2500 INR per person; hotels around 2500-5000 INR per night",
+    "topAttractions": [
+      "Gwalior Fort",
+      "Man Singh Palace",
+      "Jai Vilas Palace",
+      "Tansen Tomb"
+    ],
+    "foodHighlights": ["bedai", "jalebi", "kachori", "poha"],
+    "safetyNotes": "Start fort visits early and avoid rushing if arriving after a long drive.",
+    "sampleItinerary": "Arrive by evening, rest overnight, visit Gwalior Fort and Jai Vilas Palace the next morning, then continue toward Agra.",
+    "sourceUrl": "Curated starter data"
+  },
+  {
+    "name": "Agra",
+    "stateOrCountry": "Uttar Pradesh, India",
+    "bestMonths": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "idealDays": 1,
+    "interests": [
+      "taj mahal",
+      "mughal history",
+      "heritage",
+      "food",
+      "photography"
+    ],
+    "budgetLevel": "mid-range",
+    "estimatedDailyCost": "2000-3500 INR per person; hotels around 3000-6000 INR per night",
+    "topAttractions": [
+      "Taj Mahal",
+      "Agra Fort",
+      "Mehtab Bagh",
+      "Itmad-ud-Daulah"
+    ],
+    "foodHighlights": ["petha", "bedai", "mughlai food", "chaat"],
+    "safetyNotes": "Book Taj Mahal tickets from official channels and verify monument closing days before travel.",
+    "sampleItinerary": "Visit Taj Mahal at sunrise, explore Agra Fort late morning, enjoy local food, and watch sunset from Mehtab Bagh.",
+    "sourceUrl": "Curated starter data"
+  },
+  {
+    "name": "Delhi",
+    "stateOrCountry": "Delhi, India",
+    "bestMonths": ["October", "November", "February", "March"],
+    "idealDays": 2,
+    "interests": [
+      "capital city",
+      "history",
+      "markets",
+      "food",
+      "museums",
+      "nightlife"
+    ],
+    "budgetLevel": "flexible",
+    "estimatedDailyCost": "2500-4500 INR per person; hotels around 3500-8000 INR per night",
+    "topAttractions": [
+      "Red Fort",
+      "Qutub Minar",
+      "India Gate",
+      "Humayun's Tomb",
+      "Chandni Chowk",
+      "Dilli Haat"
+    ],
+    "foodHighlights": ["paratha", "chole bhature", "kebabs", "chaat", "momos"],
+    "safetyNotes": "Use metro or app cabs for easy movement and keep buffer time for traffic.",
+    "sampleItinerary": "Spend one day in Old Delhi and central Delhi, then one day around Qutub Minar, Humayun's Tomb, markets, and food stops.",
+    "sourceUrl": "Curated starter data"
+  },
+  {
+    "name": "Goa",
+    "stateOrCountry": "Goa, India",
+    "bestMonths": ["November", "December", "January", "February"],
+    "idealDays": 4,
+    "interests": ["beaches", "nightlife", "food", "relaxation", "water sports"],
+    "budgetLevel": "flexible",
+    "estimatedDailyCost": "2500-6000 INR per person",
+    "topAttractions": [
+      "Baga Beach",
+      "Fort Aguada",
+      "Fontainhas",
+      "Dudhsagar Falls",
+      "Palolem Beach"
+    ],
+    "foodHighlights": ["fish curry rice", "bebinca", "xacuti", "poi bread"],
+    "safetyNotes": "Check sea conditions before water sports and avoid isolated beaches late at night.",
+    "sampleItinerary": "Day 1 North Goa beaches, Day 2 forts and cafes, Day 3 South Goa, Day 4 waterfall or spice plantation.",
+    "sourceUrl": "Curated starter data"
+  },
+  {
+    "name": "Manali",
+    "stateOrCountry": "Himachal Pradesh, India",
+    "bestMonths": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "October",
+      "December",
+      "January"
+    ],
+    "idealDays": 4,
+    "interests": ["mountains", "snow", "adventure", "honeymoon", "cafes"],
+    "budgetLevel": "mid-range",
+    "estimatedDailyCost": "2500-5000 INR per person",
+    "topAttractions": [
+      "Hadimba Temple",
+      "Old Manali",
+      "Solang Valley",
+      "Atal Tunnel",
+      "Vashisht"
+    ],
+    "foodHighlights": ["siddu", "trout", "thukpa", "cafe food"],
+    "safetyNotes": "Snow routes can close in winter; check road and weather updates before traveling.",
+    "sampleItinerary": "Day 1 Old Manali, Day 2 Solang Valley, Day 3 Atal Tunnel or local villages, Day 4 cafes and shopping.",
+    "sourceUrl": "Curated starter data"
+  },
+  {
+    "name": "Kerala",
+    "stateOrCountry": "Kerala, India",
+    "bestMonths": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "idealDays": 5,
+    "interests": ["backwaters", "nature", "beaches", "tea gardens", "family"],
+    "budgetLevel": "mid-range",
+    "estimatedDailyCost": "3000-6500 INR per person",
+    "topAttractions": ["Munnar", "Alleppey", "Kochi", "Thekkady", "Varkala"],
+    "foodHighlights": ["appam", "stew", "sadya", "seafood", "puttu kadala"],
+    "safetyNotes": "Monsoon travel is scenic but can affect road movement and outdoor plans.",
+    "sampleItinerary": "Kochi arrival, Munnar tea gardens, Thekkady nature, Alleppey backwaters, Kochi departure.",
+    "sourceUrl": "Curated starter data"
+  },
+  {
+    "name": "Jaipur",
+    "stateOrCountry": "Rajasthan, India",
+    "bestMonths": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "idealDays": 3,
+    "interests": ["palaces", "forts", "shopping", "food", "culture"],
+    "budgetLevel": "flexible",
+    "estimatedDailyCost": "2500-5500 INR per person",
+    "topAttractions": [
+      "Amber Fort",
+      "City Palace",
+      "Hawa Mahal",
+      "Jantar Mantar",
+      "Nahargarh Fort"
+    ],
+    "foodHighlights": [
+      "dal baati churma",
+      "pyaaz kachori",
+      "ghewar",
+      "laal maas"
+    ],
+    "safetyNotes": "Summer is very hot; winter is the most comfortable season for sightseeing.",
+    "sampleItinerary": "Day 1 old city, Day 2 Amber and Nahargarh, Day 3 shopping and cafes.",
+    "sourceUrl": "Curated starter data"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "topic": "road trip planning",
+    "tips": [
+      "Check maps and highway conditions on the day of departure.",
+      "Avoid long night drives on unfamiliar highways.",
+      "Keep buffer time for meals, fuel, traffic, and fatigue.",
+      "Carry vehicle papers, FASTag balance, first-aid kit, water, and offline maps."
+    ]
+  },
+  {
+    "topic": "budget travel",
+    "tips": [
+      "Travel outside peak weekends and holidays for better hotel prices.",
+      "Use public transport or app cabs selectively inside cities.",
+      "Choose stays near the main sightseeing zone to save commute time.",
+      "Keep a 10-15% buffer for last-minute local expenses."
+    ]
+  },
+  {
+    "topic": "winter travel",
+    "tips": [
+      "Carry layers instead of one heavy jacket.",
+      "Check fog delays in North India during December and January.",
+      "Start sightseeing early because winter daylight is shorter."
+    ]
+  }
+]

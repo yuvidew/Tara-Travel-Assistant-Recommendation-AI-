@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Durg to Delhi Heritage Road Trip",
+    "duration": "5 days",
+    "places": ["Durg", "Gwalior", "Agra", "Delhi"],
+    "plan": [
+      "Day 1: Start from Durg early and drive toward Gwalior with meal and fuel breaks.",
+      "Day 2: Explore Gwalior Fort, Jai Vilas Palace, and Tansen Tomb.",
+      "Day 3: Drive to Agra, visit Agra Fort and Mehtab Bagh.",
+      "Day 4: Visit Taj Mahal at sunrise, then drive to Delhi.",
+      "Day 5: Explore Old Delhi, India Gate, Qutub Minar, and local markets."
+    ],
+    "budgetHint": "Mid-range estimate: 2500-4500 INR per person per day excluding fuel and intercity vehicle cost."
+  },
+  {
+    "title": "Budget Goa Beach Break",
+    "duration": "4 days",
+    "places": ["North Goa", "South Goa"],
+    "plan": [
+      "Day 1: Arrive, check in, and enjoy a relaxed beach evening.",
+      "Day 2: Explore North Goa beaches, Fort Aguada, and cafes.",
+      "Day 3: Visit South Goa beaches or Dudhsagar Falls depending on season.",
+      "Day 4: Local shopping, food stops, and departure."
+    ],
+    "budgetHint": "Budget estimate: 2500-4000 INR per person per day with basic stays and local food."
+  }
+]

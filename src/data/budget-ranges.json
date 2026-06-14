@@ -1,0 +1,23 @@
+[
+  {
+    "level": "budget",
+    "hotelPerNight": "1000-2500 INR",
+    "foodPerDay": "500-1000 INR per person",
+    "localTravelPerDay": "400-1000 INR",
+    "notes": "Best for hostels, basic hotels, public transport, shared cabs, and street/local food."
+  },
+  {
+    "level": "mid-range",
+    "hotelPerNight": "2500-6000 INR",
+    "foodPerDay": "1000-2200 INR per person",
+    "localTravelPerDay": "800-1800 INR",
+    "notes": "Best for clean private hotels, app cabs for key transfers, and a mix of local and cafe dining."
+  },
+  {
+    "level": "premium",
+    "hotelPerNight": "7000-15000+ INR",
+    "foodPerDay": "2500-5000+ INR per person",
+    "localTravelPerDay": "2000-5000+ INR",
+    "notes": "Best for upscale hotels, private cars, guided tours, and premium restaurants."
+  }
+]
