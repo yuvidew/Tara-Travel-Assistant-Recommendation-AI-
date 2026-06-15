@@ -7,7 +7,11 @@ export type LocalChatMessage = {
   role: "user" | "assistant";
   content: string;
   createdAt: string;
+  agent?: "gemini" | "mistral" | "groq";
   agentLabel?: string;
+  matchedBudgets?: string[];
+  matchedDestinations?: string[];
+  matchedRoutes?: string[];
   usedFallback?: boolean;
 };
 
@@ -15,6 +19,33 @@ const storageKey = "tara-travel-chat-history";
 
 function createId() {
   return `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+}
+
+function parseStoredMessages(stored: string) {
+  try {
+    const parsed = JSON.parse(stored) as unknown;
+
+    if (!Array.isArray(parsed)) {
+      return [];
+    }
+
+    return parsed.filter(
+      (message): message is LocalChatMessage =>
+        Boolean(message) &&
+        typeof message === "object" &&
+        "id" in message &&
+        "role" in message &&
+        "content" in message &&
+        "createdAt" in message &&
+        typeof message.id === "string" &&
+        (message.role === "user" || message.role === "assistant") &&
+        typeof message.content === "string" &&
+        typeof message.createdAt === "string",
+    );
+  } catch {
+    window.localStorage.removeItem(storageKey);
+    return [];
+  }
 }
 
 export function createChatMessage(
@@ -35,7 +66,7 @@ export function useLocalChatHistory() {
     try {
       const stored = window.localStorage.getItem(storageKey);
       if (stored) {
-        setMessages(JSON.parse(stored) as LocalChatMessage[]);
+        setMessages(parseStoredMessages(stored));
       }
     } finally {
       setIsLoaded(true);

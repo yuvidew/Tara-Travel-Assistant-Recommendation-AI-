@@ -153,6 +153,7 @@ export async function runTravelChat({
       answer,
       agent,
       agentLabel: getAgentLabel(agent),
+      matchedBudgets: travelSearch.budgets.map((budget) => budget.level),
       matchedDestinations: travelSearch.destinations.map(
         (destination) => destination.name,
       ),
@@ -168,6 +169,7 @@ export async function runTravelChat({
       agentLabel: getAgentLabel(agent),
       error:
         error instanceof Error ? error.message : "Unknown AI provider error",
+      matchedBudgets: travelSearch.budgets.map((budget) => budget.level),
       matchedDestinations: travelSearch.destinations.map(
         (destination) => destination.name,
       ),

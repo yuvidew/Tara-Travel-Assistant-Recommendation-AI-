@@ -15,6 +15,7 @@ import { Textarea } from "@/components/ui/textarea";
 
 type ChatComposerProps = {
   disabled: boolean;
+  hasMessages: boolean;
   onClear: () => void;
   onSend: (message: string) => void;
 };
@@ -84,7 +85,12 @@ const idleVoiceLevels: VoiceLevel[] = Array.from(
   }),
 );
 
-export function ChatComposer({ disabled, onClear, onSend }: ChatComposerProps) {
+export function ChatComposer({
+  disabled,
+  hasMessages,
+  onClear,
+  onSend,
+}: ChatComposerProps) {
   const [value, setValue] = React.useState("");
   const [isListening, setIsListening] = React.useState(false);
   const [voiceError, setVoiceError] = React.useState("");
@@ -357,25 +363,27 @@ export function ChatComposer({ disabled, onClear, onSend }: ChatComposerProps) {
               placeholder="Where do you want to go?"
               value={value}
             />
-            <Button
-              aria-label="Clear chat"
-              className="hidden rounded-xl border-slate-200 text-slate-400 hover:bg-slate-50 hover:text-slate-700 dark:border-slate-800 dark:text-slate-500 dark:hover:bg-slate-900 dark:hover:text-slate-200"
-              disabled={disabled}
-              onClick={onClear}
-              size="icon-lg"
-              type="button"
-              variant="outline"
-            >
-              <Trash2 className="size-4" />
-            </Button>
+            {hasMessages ? (
+              <Button
+                aria-label="Clear chat"
+                className="rounded-xl border-slate-200 text-slate-400 hover:bg-slate-50 hover:text-slate-700 dark:border-slate-800 dark:text-slate-500 dark:hover:bg-slate-900 dark:hover:text-slate-200"
+                disabled={disabled}
+                onClick={onClear}
+                size="icon-lg"
+                type="button"
+                variant="outline"
+              >
+                <Trash2 className="size-4" />
+              </Button>
+            ) : null}
             <Button
               aria-label={
                 isListening ? "Stop voice input" : "Start voice input"
               }
               className={
                 isListening
-                  ? "hidden rounded-xl border-blue-200 bg-blue-50 text-blue-600 hover:bg-blue-100 dark:border-blue-900 dark:bg-blue-950/60 dark:text-blue-300 dark:hover:bg-blue-950"
-                  : "hidden rounded-xl border-slate-200 text-slate-400 hover:bg-blue-50 hover:text-blue-600 dark:border-slate-800 dark:text-slate-500 dark:hover:bg-blue-950/40 dark:hover:text-blue-300"
+                  ? " rounded-xl border-blue-200 bg-blue-50 text-blue-600 hover:bg-blue-100 dark:border-blue-900 dark:bg-blue-950/60 dark:text-blue-300 dark:hover:bg-blue-950"
+                  : " rounded-xl border-slate-200 text-slate-400 hover:bg-blue-50 hover:text-blue-600 dark:border-slate-800 dark:text-slate-500 dark:hover:bg-blue-950/40 dark:hover:text-blue-300"
               }
               disabled={disabled}
               onClick={isListening ? stopVoiceInput : startVoiceInput}
@@ -391,7 +399,7 @@ export function ChatComposer({ disabled, onClear, onSend }: ChatComposerProps) {
             </Button>
             <Button
               aria-label="Send message"
-              className="rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 text-white shadow-md shadow-blue-500/25 hover:from-blue-600 hover:to-blue-700 dark:shadow-blue-950/50"
+              className="rounded-xl bg-linear-to-br from-blue-500 to-blue-600 text-white shadow-md shadow-blue-500/25 hover:from-blue-600 hover:to-blue-700 dark:shadow-blue-950/50"
               disabled={disabled || !value.trim()}
               size="icon-lg"
               type="submit"
